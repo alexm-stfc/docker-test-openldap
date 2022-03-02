@@ -104,6 +104,8 @@ configure_tls
 configure_logging
 configure_memberof_overlay
 configure_admin_config_pw
+ldapadd -Q -Y EXTERNAL -H ldapi:/// -f ${CONFIG_DIR}/sshKey.ldif
+
 load_initial_data
 
 # Shutdown openldap daemon

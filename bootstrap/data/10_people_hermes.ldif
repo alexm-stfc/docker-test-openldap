@@ -1,9 +1,11 @@
-dn: cn=Hermes Conrad,ou=people,dc=planetexpress,dc=com
+dn: cn=hermes,ou=people,dc=planetexpress,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
-cn: Hermes Conrad
+objectClass: posixAccount
+objectClass: ldapPublicKey
+cn: hermes
 sn: Conrad
 description: Human
 employeeType: Bureaucrat
@@ -14,4 +16,10 @@ ou: Office Management
 uid: hermes
 userPassword:: e3NzaGF9M3UzcUdCSmFMc2tiUEg0OVJrYlFtUk9HTktFb1lOUXZkU2lOZmc9P
  Q==
-
+gecos: Hermes Conrad
+sshPublicKey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOD8B7Zym0UPwPimgvwaYrVtu5TjQucG1a8Yo3wrjRTk amy
+description: cluster:jasmin-login
+uidNumber: 7053468
+homeDirectory: /home/users/hermes
+gidNumber: 26032
+loginShell: /bin/bash

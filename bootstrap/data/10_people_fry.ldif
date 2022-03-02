@@ -1,9 +1,11 @@
-dn: cn=Philip J. Fry,ou=people,dc=planetexpress,dc=com
+dn: cn=fry,ou=people,dc=planetexpress,dc=com
 objectClass: inetOrgPerson
 objectClass: organizationalPerson
 objectClass: person
 objectClass: top
-cn: Philip J. Fry
+objectClass: posixAccount
+objectClass: ldapPublicKey
+cn: fry
 sn: Fry
 description: Human
 displayName: Fry
@@ -408,4 +410,10 @@ ou: Delivering Crew
 uid: fry
 userPassword:: e3NzaGF9d0wvVG0wSHNaeU90K29jbXlrU290UkpURnczd0ZKOWRlaEU4eFE9P
  Q==
-
+gecos: Philip J. Fry
+sshPublicKey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOD8B7Zym0UPwPimgvwaYrVtu5TjQucG1a8Yo3wrjRTk amy
+description: cluster:jasmin-login
+uidNumber: 7053467
+homeDirectory: /home/users/fry
+gidNumber: 26031
+loginShell: /bin/bash

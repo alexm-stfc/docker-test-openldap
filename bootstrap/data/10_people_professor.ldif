@@ -1,9 +1,11 @@
-dn: cn=Hubert J. Farnsworth,ou=people,dc=planetexpress,dc=com
+dn: cn=professor,ou=people,dc=planetexpress,dc=com
 objectClass: inetOrgPerson
 objectClass: organizationalPerson
 objectClass: person
 objectClass: top
-cn: Hubert J. Farnsworth
+objectClass: posixAccount
+objectClass: ldapPublicKey
+cn: professor
 sn: Farnsworth
 description: Human
 displayName: Professor Farnsworth
@@ -494,4 +496,10 @@ title: Professor
 uid: professor
 userPassword:: e3NzaGF9azRDRS9ta3Frb3NFampzVkhJWEhGMTFaU0h6ZVExUzdhdnQveWc9P
  Q==
-
+gecos: Hubert J. Farnsworth
+sshPublicKey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOD8B7Zym0UPwPimgvwaYrVtu5TjQucG1a8Yo3wrjRTk amy
+description: cluster:jasmin-login
+uidNumber: 7053470
+homeDirectory: /home/users/professor
+gidNumber: 26034
+loginShell: /bin/bash
