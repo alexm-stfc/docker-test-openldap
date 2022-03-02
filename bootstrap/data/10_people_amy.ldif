@@ -15,7 +15,7 @@ uid: amy
 userPassword:: e1NTSEF9d0p2OXMyWjltMGJTMFIxV1k3QjdCRWZEVVZPQzg2Y3BWL3VDMHc9PQ=
  =
 gecos: Amy Wong
-sshPublicKey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOD8B7Zym0UPwPimgvwaYrVtu5TjQucG1a8Yo3wrjRTk amy
+sshPublicKey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDOdyaq/RF6CsLwrbDnJ8fv4bYHsqjvjORgzlczbHxlTnqqQUjYD/XvlH2sy+76AwnnOOzoJesTGyjxlf/o57rYQ+E7hk37BkdCrPaZZzuUJTfGhGzE/TwA/aKSvsnCcw2Sz/32lbKscBPdgFNPxePtevwYjCQkUCjaAy3RqSzqVVAOuE+S4zVdIT2DA8Se89UF3/tQ/DSUuqPklBLtTPKQaKz9WeqM1McS98s8mhQpY8xEJbrKIIMHeH1w5N87vrSCCyVRO4S19rk8vRxEQgYkF4KRl4u20V8RwmK1NWzHa9stArdQZc80vffY7TDESYPiJoJOJYLqhGAuoJurj8PF amy
 description: cluster:jasmin-login
 uidNumber: 7053466
 homeDirectory: /home/users/amy
