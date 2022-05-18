@@ -41,13 +41,13 @@ spec:
             tcpSocket:
               port: ldap
             initialDelaySeconds: 20
-            periodSeconds: 10
-            failureThreshold: 10
+            periodSeconds: 20
+            failureThreshold: 50
           readinessProbe:
             tcpSocket:
               port: ldap
             initialDelaySeconds: 20
-            periodSeconds: 10
+            periodSeconds: 20
             failureThreshold: 10
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
